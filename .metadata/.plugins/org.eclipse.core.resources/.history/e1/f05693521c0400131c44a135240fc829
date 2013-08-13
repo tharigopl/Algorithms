@@ -31,17 +31,14 @@ public class LinkedList {
 	
 	public Node remove(int n){
 		Node temp = first;
-		Node returnTemp = null;
 		if(temp.key == n){
 			first = null;
 			return temp;
 		}else{
-			while(temp.key!= n){				
+			while(temp.key!= n){
 				temp = temp.next;
-			}			
-			returnTemp = temp;
-			temp = temp.next;
-			return returnTemp;
+			}
+			return temp;
 		}
 	}
 	
