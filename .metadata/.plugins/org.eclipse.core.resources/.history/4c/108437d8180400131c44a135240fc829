@@ -19,13 +19,8 @@ public class LinkedList {
 	
 	public void add(int n){
 		Node newNode = new Node(n);
-		Node temp = null;
 		if(this.isEmpty()){
-			first = newNode;
-		}else{
-			temp = first;
-			first = newNode;
-			newNode.next = temp;
+			
 		}
 	}
 	

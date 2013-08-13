@@ -10,7 +10,7 @@ public class ReplaceAndCombinationInString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str = "1??";
-		combination(str);		
+		//combination(str);		
 	}
 	
 	public static void combination(String input){

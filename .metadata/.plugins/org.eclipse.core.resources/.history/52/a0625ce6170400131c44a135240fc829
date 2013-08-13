@@ -10,7 +10,30 @@ public class ReplaceAndCombinationInString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str = "1??";
-		combination(str);		
+		//combination(str);
+		Stack<Node> stack = new Stack<Node>();
+		Node obj1 = new Node(10);
+		stack.push(obj1);
+		stack.push(new Node(11));
+		
+		Iterator itr = stack.iterator();
+		
+		while(itr.hasNext()){
+			Node obj = (Node)itr.next();
+			System.out.println(obj.id);
+		}
+		
+		obj1.id = "23";
+		itr = stack.iterator();
+		while(itr.hasNext()){
+			Node obj = (Node)itr.next();
+			System.out.println(obj.id);
+		}
+		
+		/*for(int a : stack){
+			System.out.println(a);
+		}*/
+		
 	}
 	
 	public static void combination(String input){

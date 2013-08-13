@@ -1,16 +1,14 @@
 public class Node {
-	public String id;
-	public int value;
+	public Integer key;
 	public Node next;	
 	public Node prev;
 	
 	public Node(){
 	}
 	
-	public Node(int n,Node node){
-		this.id = n+"";
-		this.value = n;
-		this.next = node;
+	public Node(int n){		
+		this.key = n;
+		this.next = null;
 		this.prev = null;
 	}
 	
