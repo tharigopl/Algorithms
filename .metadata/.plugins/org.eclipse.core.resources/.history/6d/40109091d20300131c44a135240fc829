@@ -37,14 +37,14 @@ public class LinkedListAddition {
 			output.add(carryOver);
 		}else if(list1.isEmpty()){
 			tempSum = list2.remove()+carryOver;
-			if(tempSum>9) newCarryOver = tempSum / 10;			
-			addRecurse(list1,list2,newCarryOver);
+			if(tempSum>9) newCarryOver = tempSum / 10;
 			output.add(tempSum%10);
+			addRecurse(list1,list2,newCarryOver);
 		}else if(list2.isEmpty()){
 			tempSum = list1.remove()+carryOver;
-			if(tempSum>9) newCarryOver = tempSum / 10;			
-			addRecurse(list1,list2,newCarryOver);
+			if(tempSum>9) newCarryOver = tempSum / 10;
 			output.add(tempSum%10);
+			addRecurse(list1,list2,newCarryOver);
 		}else{
 			tempSum = list1.remove()+list2.remove() + carryOver;	
 		
