@@ -9,7 +9,16 @@ public class LinkedListAddition {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-				
+		Node linkedList1 = new Node(6,null);
+		Node linkedList2 = new Node(1,linkedList1);
+		Node linkedList3 = new Node(7,linkedList2);
+		
+		Node linkedList4 = new Node(2,null);
+		Node linkedList5 = new Node(9,linkedList4);
+		Node linkedList6 = new Node(5,linkedList5);
+		//add(linkedList3, linkedList6);
+		
+		
 		LinkedList<Integer> linkedAdd1 = new LinkedList<Integer>();
 		linkedAdd1.add(6);
 		linkedAdd1.add(1);
