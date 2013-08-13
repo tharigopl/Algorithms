@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 public class LinkedListAddition {
 
-	public static LinkedList output;
+	public static LinkedList output ;
 	/**
 	 * @param args
 	 */
