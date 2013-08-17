@@ -91,6 +91,7 @@ public class DFS {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Graph graph = new Graph(3);
+		//graph.addEdge(0, 1);
 		graph.addEdge(0, 2);
 		
 		graph.addEdge(0, 1);
