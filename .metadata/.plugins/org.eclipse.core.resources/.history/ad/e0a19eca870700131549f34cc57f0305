@@ -19,8 +19,7 @@ public class DivToZero {
 					return i+"";
 				}
 		}
-		
 		System.out.println(strNumber);
-		return "No Possible number";
+		return "No Possible number";		
 	}
 }
