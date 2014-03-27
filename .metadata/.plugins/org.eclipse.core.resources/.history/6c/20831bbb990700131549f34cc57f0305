@@ -1,0 +1,18 @@
+package topcoder;
+
+public class MixingLiquids {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public double howMuch(int[] percent, int[] amount, int need)
+		
+		return 1.5; 
+	}
+
+}
