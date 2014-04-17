@@ -17,24 +17,7 @@ public class UnionFind {
 	}
 	
 	//O(N^2)
-	public void unionNaive(int a, int b){		
-		/*if(this.data[a] != this.data[b]){
-			if(this.data[a]<this.data[b]){
-				int temp = this.data[b];
-				for(int count = 0; count < this.data.length; count++){					
-					if(this.data[count] == temp){
-						this.data[count] = this.data[a];
-					}
-				}
-			}else{
-				int temp = this.data[a];
-				for(int count = 0; count < this.data.length; count++){					
-					if(this.data[count] == temp){
-						this.data[count] = this.data[b];
-					}
-				}
-			}
-		}*/
+	public void unionNaive(int a, int b){	
 		int aid = a;
 		int bid = b;
 		for(int i=0;i<this.data.length;i++){

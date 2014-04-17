@@ -1,0 +1,41 @@
+package com.rozar.random.codes;
+
+public class PrintPathsInMatrix {
+
+	public static Integer[][] input = {{2,3,4},{5,6,7}};
+	public static int noOfRows = input.length;
+	public static int noOfCols = input[0].length;
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(noOfRows);
+		System.out.println(noOfCols);
+		printAllPaths(0,0);
+		
+	}
+	
+	public static void printAllPaths(int currentRow, int currentCol){
+		
+		if(currentRow > noOfRows - 1 || currentCol > noOfCols - 1){
+			
+		}
+		// you are at the destination
+		else if(currentRow == noOfRows - 1 && currentCol == noOfCols - 1){
+			System.out.println(input[currentRow][currentCol]);
+		}
+		else{
+			System.out.println(input[currentRow][currentCol]);
+			// Move down
+			if(currentRow == noOfRows - 1){
+				// at the last row so can move only right
+				printAllPaths(currentRow, currentCol + 1);
+			}
+			
+			// Move right
+			
+		}		
+	}
+
+}

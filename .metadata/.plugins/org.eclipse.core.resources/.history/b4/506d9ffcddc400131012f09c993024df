@@ -1,0 +1,28 @@
+package com.rozar.random.codes;
+
+public class NumberWithSeven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static numbersWithSeven(int number){
+		
+		/*for(int i = 1 ; i <= number; i++){
+			if(number < 10 && number == 7){
+				System.out.println(number);
+				continue;
+			}
+			while(i/10 != 0){
+				
+			}
+			
+		}*/
+		for(int i = 7 ; i <= number;){
+			System.out.println(i);
+			i = i+7;			
+		}
+	}
+
+}

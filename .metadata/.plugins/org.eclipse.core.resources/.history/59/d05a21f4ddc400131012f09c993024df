@@ -1,0 +1,10 @@
+package com.rozar.random.codes;
+
+public class NumberWithSeven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

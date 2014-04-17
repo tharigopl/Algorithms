@@ -9,7 +9,7 @@ public class NumberPalindrome {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int number = 123212;
+		int number = 12;
 		original = number;
 		System.out.println(checkPalindrome(number));
 		

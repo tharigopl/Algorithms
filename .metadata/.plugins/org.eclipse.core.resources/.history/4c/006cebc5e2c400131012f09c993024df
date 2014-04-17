@@ -1,0 +1,48 @@
+package com.rozar.random.codes;
+
+public class NumberWithSeven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		numbersWithSeven(200);
+	}
+	
+	public static void numbersWithSeven(int number){
+		
+		/*for(int i = 1 ; i <= number; i++){
+			if(number < 10 && number == 7){
+				System.out.println(number);
+				continue;
+			}
+			while(i/10 != 0){
+				
+			}
+			
+		}*/
+		for(int i = 7 ; i <= number;){
+			System.out.print(i + " ");
+			int temp = i+3;
+			if( temp % 7 == 0){
+				boolean result = false;
+				do{
+					int tempR = temp % 10;
+					int tempQ = temp / 10;
+					if(tempR == 7){
+						result = true;
+					}
+					temp = tempQ;
+				}while(temp>0);
+				if(result){
+					for(int j = 0 ; j < 10; j++){
+						System.out.print(temp+ " ");
+						temp++;
+					}
+					
+					i = i+3+8+9;
+				}			
+			}else			
+				i = i+10;			
+		}
+	}
+
+}
