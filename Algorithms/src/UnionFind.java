@@ -44,7 +44,7 @@ public class UnionFind {
 		// TODO Auto-generated method stub
 		UnionFind objUnionFind = null;
 		
-		BufferedReader buff = new BufferedReader(new FileReader(args[0]));
+		BufferedReader buff = new BufferedReader(new FileReader("A:\\Algorithms\\Algorithms\\Algorithms\\src\\UnionFind"));
 		String inputLine = "";
 		while((inputLine = buff.readLine())!=null)
 		{

@@ -3,7 +3,7 @@ class PrintAllKLengthStrings {
     // Driver method to test below methods
     public static void main(String[] args) {            
         System.out.println("First Test");
-        String str = "abcd";
+        String str = "xyz";
         char set1[] = str.toCharArray();
         int k = str.length();
         printAllKLength(set1, k);
@@ -30,7 +30,7 @@ class PrintAllKLengthStrings {
          
         // Base case: k is 0, print prefix
         if (k == 0) {
-        	System.out.println(count++);
+        	//System.out.println(count++);
             System.out.println(prefix);
             return;
         }
