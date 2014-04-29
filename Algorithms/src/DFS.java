@@ -91,18 +91,13 @@ public class DFS {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Graph graph = new Graph(3);
-		//graph.addEdge(0, 1);
 		graph.addEdge(0, 2);
 		
 		graph.addEdge(0, 1);
 		graph.addEdge(1, 2);
-		//graph.addEdge(2, 0);
-		//graph.addEdge(1, 4);
-		//graph.addEdge(0, 4);
-		//graph.addEdge(0, 3);
 		
 		DFS objDFS = new DFS(graph, 0);
-		//System.out.println(objDFS.isCyclic(graph, 0));
+		
 		System.out.println(objDFS.isCyclicForDirectedGraph(graph, 0, new HashMap()));
 		
 		objDFS.hasPathTo(4);
