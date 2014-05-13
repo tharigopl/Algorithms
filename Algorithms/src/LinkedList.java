@@ -19,13 +19,17 @@ public class LinkedList {
 	
 	public void add(int n){
 		Node newNode = new Node(n);
-		Node temp = null;
+		Node temp = first;
 		if(this.isEmpty()){
 			first = newNode;
 		}else{
-			temp = first;
+			/*temp = first;
 			first = newNode;
-			newNode.next = temp;
+			newNode.next = temp;*/
+			while(temp.next != null){
+				temp = temp.next;
+			}
+			temp.next = newNode;
 		}
 	}
 	
